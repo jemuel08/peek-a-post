@@ -1,0 +1,137 @@
+.wrap .signin-button{
+    font-size: 20px;
+    outline:none;
+    padding:12px 20px;
+    color:white;
+    background: #4183d7;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.wrap .signin-button:hover{
+    background:darkblue;
+}
+
+/*login*/
+.login-body{
+    padding-top: 50px;
+  }
+  .loginModal{
+    display:flex;
+    flex-direction: column;
+  }
+  .login-wrap{
+    width: 410px;
+    overflow: hidden;
+    margin: auto;
+   
+    padding:20px;
+    background:#fff;
+    border:1px solid silver;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .wrap{
+    width: 410px;
+    overflow: hidden;
+    margin: auto;
+    padding:20px;
+    background:#fff;
+    
+    border-radius: 10px;
+    text-align: center;
+    
+  }
+  .loginModal input {
+    width: 400px;
+    height:35px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid silver;
+    padding:5px;
+  }
+  .loginModal .btn-login{
+    width: 412px;
+    padding:5px;
+    height:40px;
+    background-color: #4183d7;
+    color:white;
+    border-radius: 3px;
+    border:0;
+    font-size: 18px;
+  }
+  .loginModal h2{
+    text-align: center;
+  }
+  
+  /*login*/
+  
+  
+  
+  /* signup */
+  .signup-body{
+    padding-top: 30px;
+  }
+  
+  .signup-wrap{
+    width: 410px;
+    overflow: hidden;
+    margin: auto;
+   
+    padding:20px;
+    background:#fff;
+    border:1px solid silver;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .signup-wrap{
+    width: 410px;
+    overflow: hidden;
+    margin: auto;
+    padding:20px;
+    background:#fff;
+    border:1px solid silver;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+  .signup-wrap input {
+    width: 400px;
+    height:35px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid silver;
+    padding:5px;
+  }
+  .signup-wrap .btn-login{
+    width: 412px;
+    padding:5px;
+    height:40px;
+    background-color: #4183d7;
+    color:white;
+    border-radius: 3px;
+    border:0;
+    font-size: 18px;
+  }
+
+  .signup-wrap .btn-login:hover{
+    background-color: darkblue;
+   
+  }
+  
+  /* signup */
+
+  /* LOGO */
+  .logo-position{
+      padding:10px;
+      text-align: center;
+      margin-top:auto;
+  }
+  .logo-image{
+    width:80px;
+    height:80px; 
+    object-fit: contain;
+    -webkit-filter: drop-shadow(2px 2px 4px );
+   filter: drop-shadow(1px 1px 1px );
+  }

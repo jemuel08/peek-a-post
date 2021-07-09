@@ -1,0 +1,70 @@
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.progress {
+  width: 100%;
+}
+.filePosition {
+  text-align: left;
+}
+.fileUpload {
+  font-size: 16px;
+  background: white;
+  border-radius: 40px;
+  box-shadow: 5px 5px 10px gray;
+  width: 250px;
+  outline: none;
+  justify-content: center;
+  margin-top: 20px;
+}
+::-webkit-file-upload-button {
+  color: white;
+  background: #4183d7;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+}
+::-webkit-file-upload-button:hover {
+  background: darkblue;
+}
+.imageUpload .imageUpload_button {
+  margin-top: 20px;
+  color:white;
+  background-color: #4183d7;
+}
+.imageUpload .imageUpload_button:hover{
+    background-color: darkblue;
+}
+.floating-btn {
+  width: 80px;
+  height: 80px;
+  background: #4183d7;
+  display: flex;
+  border-radius: 50%;
+  color: white;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  box-shadow: 4px 4px 5px gray;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  transition: 0.25s;
+  outline: blue;
+  cursor: pointer;
+}
+.floating-btn:active {
+  background: rgb(5, 50, 133);
+}
+.floating-btn:hover{
+  background: darkblue;
+}

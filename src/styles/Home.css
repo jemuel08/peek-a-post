@@ -1,0 +1,26 @@
+
+.homePostContain{
+    
+    align-content: center;
+    padding:40px;   
+}
+.nav-bar{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-bar .active{
+    /* background-color:  #467591; */
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background-color:#4b7188;
+    object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
