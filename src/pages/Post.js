@@ -64,7 +64,7 @@ export default function Post({ postId, email, caption, imageUrl }) {
       // No user is signed in.
       setUserLogin(null);
     }
-  }, []);
+  }, [email]);
 
   const deletePost = (e) => {
     e.preventDefault();
@@ -106,7 +106,7 @@ export default function Post({ postId, email, caption, imageUrl }) {
         </div>
 
         {/* image */}
-        <img className="post_image" src={imageUrl} alt="no image" />
+        <img className="post_image" src={imageUrl} alt="no post" />
 
         {/* username and caption */}
         <h4 className="post_text">
